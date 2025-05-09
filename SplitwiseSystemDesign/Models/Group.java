@@ -1,6 +1,8 @@
-package SplitwiseSystemDesign;
+package SplitwiseSystemDesign.Models;
 
 import java.util.*;
+
+import SplitwiseSystemDesign.Services.ExpenseManager;
 public class Group {
     private List<User> members;
     private int id;
@@ -23,7 +25,7 @@ public class Group {
     public String getName() {
         return name;
     }
-    void addExpense(double amount, User paidBy){
+    public void addExpense(double amount, User paidBy){
         Expense expense = expenseManager.createExpense(members, amount, paidBy);
         expenseList.add(expense);
     }

@@ -1,4 +1,4 @@
-package SplitwiseSystemDesign;
+package SplitwiseSystemDesign.Models;
 
 public class Split {
     private User user;

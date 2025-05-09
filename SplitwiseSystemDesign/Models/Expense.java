@@ -1,4 +1,4 @@
-package SplitwiseSystemDesign;
+package SplitwiseSystemDesign.Models;
 
 import java.util.*;
 public class Expense {

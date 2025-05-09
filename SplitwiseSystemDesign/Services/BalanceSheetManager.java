@@ -1,4 +1,8 @@
-package SplitwiseSystemDesign;
+package SplitwiseSystemDesign.Services;
+
+import SplitwiseSystemDesign.Models.Expense;
+import SplitwiseSystemDesign.Models.Split;
+import SplitwiseSystemDesign.Models.User;
 
 public class BalanceSheetManager {
     public void updateBalanceSheet(Expense expense){

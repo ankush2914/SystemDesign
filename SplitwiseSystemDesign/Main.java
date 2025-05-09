@@ -1,5 +1,11 @@
 package SplitwiseSystemDesign;
 
+import SplitwiseSystemDesign.Models.Group;
+import SplitwiseSystemDesign.Models.User;
+import SplitwiseSystemDesign.Services.BalanceSheetManager;
+import SplitwiseSystemDesign.Services.ExpenseManager;
+import SplitwiseSystemDesign.Services.SplitManager;
+
 public class Main {
     public static void main(String[] args) {
         SplitManager sm  = new SplitManager();
@@ -16,5 +22,6 @@ public class Main {
         g1.addExpense(500, u1);
         u1.showExpenses();
         u3.showExpenses();
+        u2.showExpenses();
     }
 }

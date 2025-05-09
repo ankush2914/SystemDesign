@@ -1,7 +1,10 @@
-package SplitwiseSystemDesign;
+package SplitwiseSystemDesign.Services;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import SplitwiseSystemDesign.Models.Split;
+import SplitwiseSystemDesign.Models.User;
 
 public class SplitManager {
     List<Split> createSplit(List<User>members,double amount){

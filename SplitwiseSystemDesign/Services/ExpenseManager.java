@@ -1,6 +1,10 @@
-package SplitwiseSystemDesign;
+package SplitwiseSystemDesign.Services;
 
 import java.util.*;
+
+import SplitwiseSystemDesign.Models.Expense;
+import SplitwiseSystemDesign.Models.Split;
+import SplitwiseSystemDesign.Models.User;
 public class ExpenseManager {
     SplitManager splitManager;
     List<Expense> expenseList;
