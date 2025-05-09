@@ -1,0 +1,6 @@
+package CoffeeMachineSystemDesign;
+
+public interface Coffee {
+    String getDescription();
+    double getCost();
+}
